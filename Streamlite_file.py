@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestClassifier 
-
+ 
 filename = 'random_forest_classification.pkl'
 with open(filename, 'rb') as file: 
     loaded_model = pickle.load(file)
